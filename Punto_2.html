@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    a=prompt("Cuantos pesos vas a digitar");
+        for(i=1; i<=a; i++ ){
+            cont=0;
+            cont1=0;
+            h=prompt("Digite peso en kg"); 
+
+            if(h<80){
+              cont=cont+h;
+              
+        
+            }else{
+            alert("Persona sana");}
+            
+            if(h>80){
+                cont1=cont1+h;
+            }else{
+            alert("Persona obesa");
+            }
+            
+        }  
+        alert("La cantidad de personas que pasan los 80kg son: "+cont1);
+        alert("La cantidad de personas que no pasan los 80kg son: "+cont)
+
+    </script>
+</body>
+</html>
